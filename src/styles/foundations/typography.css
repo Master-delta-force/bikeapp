@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+
+:root {
+    --common-font-family: 'Montserrat', sans-serif;
+    --common-font-size: 14px;
+    --common-line-height: 1.5em;
+    --common-letter-spacing: 0.00938em;
+    --common-font-light: 300;
+    --common-font-regular: 400;
+    --common-font-medium: 500;
+    --common-font-bold: 700;
+}
+
+body {
+    font-family: var(--common-font-family);
+    font-size: var(--common-font-size);
+    line-height: var(--common-line-height);
+    letter-spacing: var(--common-letter-spacing);
+    font-weight: var(--common-font-regular);
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: -0.00833em;
+    line-height: 1.167;
+    font-weight: var(--common-font-light);
+}
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: -0.00833em;
+    line-height: 1.2;
+    font-weight: var(--common-font-light);
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 0em;
+    line-height: 1.167;
+    font-weight: var(--common-font-regular);
+}
+
+button {
+    font-weight: var(--common-font-medium);
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: Uppercase;
+    font-family: var(--common-font-family);
+}

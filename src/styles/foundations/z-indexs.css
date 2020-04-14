@@ -1,0 +1,7 @@
+:root {
+    --common-zindex-appBar: 1100;
+    --common-zindex-drawer: 1200;
+    --common-zindex-modal: 1300;
+    --common-zindex-action-button: 1400;
+    --common-zindex-alert: 1500;
+}

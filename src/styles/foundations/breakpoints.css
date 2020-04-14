@@ -1,0 +1,7 @@
+:root {
+    --common-bp-xs: 0px;
+    --common-bp-sm: 600px;
+    --common-bp-md: 960px;
+    --common-bp-lg: 1280px;
+    --common-bp-xl: 1920px;
+}

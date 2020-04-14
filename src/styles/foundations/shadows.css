@@ -1,0 +1,3 @@
+:root {
+    --common-container-shadow: 0 0 20px 2px var(--common-color-shadow);
+}
