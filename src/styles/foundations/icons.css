@@ -1,0 +1,10 @@
+:root {
+    --common-icon-size: 1.5em;
+    --common-icon-stroke-width: 2px;
+}
+
+svg {
+    width: var(--common-icon-size);
+    height: var(--common-icon-size);
+    stroke-width: var(--common-icon-stroke-width);
+}

@@ -1,0 +1,28 @@
+:root {
+    --common-color-primary-light: #516069;
+    --common-color-primary-main: #263944;
+    --common-color-primary-dark: #1a272f;
+    --common-color-primary-text: #ffffff;
+    --common-color-secondary-light: #579d81;
+    --common-color-secondary-main: #2E8562;
+    --common-color-secondary-dark: #205d44;
+    --common-color-secondary-text: #ffffff;
+    --common-color-error: #f44336;
+    --common-color-error-text: #111111;
+    --common-color-warning: #ff9800;
+    --common-color-warning-text: #111111;
+    --common-color-success: #4caf50;
+    --common-color-success-text: #111111;
+    --common-color-background-default: #fafafa;
+    --common-color-card: #fafafa;
+    --common-color-button-action-background: rgba(0,0,0,0.2);
+    --common-color-shadow: #c1c1c1;
+}
+
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:hover, button:active {
+    background-color: var(--common-color-button-action-background);
+}

@@ -1,0 +1,18 @@
+:root {
+    --common-spacing-unit: 8px;
+    --common-border-radius: 4px;
+}
+
+h1, h2, h3 {
+    margin: var(--common-spacing-unit) 0;
+}
+
+p {
+    margin: var(--common-spacing-unit) 0;
+}
+
+button {
+    border-radius: var(--common-border-radius);
+    padding: var(--common-spacing-unit) calc(var(--common-spacing-unit) * 3);
+    outline: none;
+}
