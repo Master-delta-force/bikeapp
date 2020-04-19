@@ -23,6 +23,7 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, .7);
     z-index: var(--common-zindex-modal);
+    animation: fadeInImage .3s;
   }
   .modal-content {
     display: block;
