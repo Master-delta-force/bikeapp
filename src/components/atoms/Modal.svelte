@@ -1,6 +1,7 @@
 <script>
   import { XIcon } from 'svelte-feather-icons';
   export let id = 'myModal';
+  export let buttonText = 'Abrir'
 
   function handleOpen() {
     document.getElementById(id).style.display = 'flex';
@@ -44,7 +45,7 @@
 
 </style>
 
-<button type="button" on:click={handleOpen}>abrir</button>
+<button type="button" on:click={handleOpen}>{buttonText}</button>
 <div class="modal" {id}>
   <div class="modal-content">
     <div class="close">
