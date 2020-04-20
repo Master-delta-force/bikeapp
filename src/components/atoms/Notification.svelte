@@ -1,13 +1,12 @@
 <script>
   export let number = 0;
   export let className = '';
+  export let size = 35;
 </script>
 
 <style>
   .notification {
     display: flex;
-    width: 35px;
-    height: 35px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -17,4 +16,4 @@
   }
 </style>
 
-<span class={`notification ${className}`}>{number}</span> 
+<span style={`width: ${size}px; height: ${size}px`} class={`notification ${className}`}>{number}</span> 
