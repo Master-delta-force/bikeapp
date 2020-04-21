@@ -1,13 +1,40 @@
 <script>
+  import { onMount } from "svelte";
+  let center;
+  let map;
+  let marker;
 
-  function initMap() {
-    var uluru = { lat: -25.344, lng: 131.036 };
-    var map = new google.maps.Map(document.getElementById("mapper"), {
-      zoom: 4,
-      center: uluru
-    });
-    var marker = new google.maps.Marker({ position: uluru, map: map });
-  }
+  onMount(() => {
+    if (!navigator.geolocation) {
+      alert("Geolocation is not supported by your browser");
+      return;
+    }
+
+    function success(position) {
+      var latitude = position.coords.latitude;
+      var longitude = position.coords.longitude;
+
+      center = { lat: latitude, lng: longitude };
+      map = new google.maps.Map(document.getElementById("container"), {
+        zoom: 15,
+        center: center
+      });
+
+      marker = new google.maps.Marker({
+        draggable: true,
+        position: center,
+        map: map,
+        title: "Current position"
+      });
+    }
+
+    function error(e) {
+      console.log(e);
+      alert("Unable to retrieve your location");
+    }
+
+    navigator.geolocation.getCurrentPosition(success, error);
+  });
 </script>
 
 <style>
@@ -23,8 +50,8 @@
   <script
     defer
     async
-    src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7lmFV2P_w4kvOACKo5VxhgDNRFYQZBcU">
+
   </script>
 </svelte:head>
-
-<div id="mapper" class="map" />
+<div id="container" class="map" />
