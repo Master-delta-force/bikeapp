@@ -1,5 +1,5 @@
 <script>
-let s_options = ["Option 1", "Option 2", "Option 3"];
+let options = [{id: 1, name:"Option 1"}, {id: 2, name: "Option 2"},{id:3, name: "Option 3"}];
 let selected;
 </script>
 
@@ -55,8 +55,8 @@ let selected;
 
 <span class="custom-select">
   <select bind:value={selected}>
-    {#each s_options as option}
-        <option>{option}</option>
+    {#each options as option}
+        <option value={option.id}>{option.name}</option>
     {/each}
   </select>
 </span>
