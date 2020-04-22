@@ -1,7 +1,7 @@
 <script>
-  export let t_id;
-  export let t_title;
-  export let t_placeholder;
+  export let id;
+  export let title;
+  export let placeholder;
   export let value;
 </script>
 
@@ -23,5 +23,5 @@
   }
 </style>
 
-<label for={t_id} class="label">{t_title}</label>
-<textarea id={t_id} class="textarea" placeholder={t_placeholder} bind:value></textarea>
+<label for={id} class="label">{title}</label>
+<textarea id={id} class="textarea" placeholder={placeholder} bind:value></textarea>
