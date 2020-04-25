@@ -50,7 +50,7 @@
   <script
     defer
     async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7lmFV2P_w4kvOACKo5VxhgDNRFYQZBcU">
+    src="https://maps.googleapis.com/maps/api/js?key=API_KEY">
 
   </script>
 </svelte:head>
