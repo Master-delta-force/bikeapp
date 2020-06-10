@@ -1,7 +1,6 @@
 ---
 name: "Bug report \U0001F41B"
 about: Create a bug report.
-title: 'DFBA - '
 labels: bug
 assignees: ''
 
