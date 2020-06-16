@@ -1,7 +1,6 @@
 ---
 name: "Feature request"
 about: Suggest a new idea for the project.
-title: DFBA -
 labels: feature
 assignees: ''
 
