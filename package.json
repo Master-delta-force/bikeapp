@@ -19,17 +19,17 @@
     "firebase-admin": "8.10.0",
     "polka": "next",
     "siema": "^1.5.1",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.6"
   },
   "devDependencies": {
-    "css-loader": "^3.5.2",
+    "css-loader": "^3.5.3",
     "mini-css-extract-plugin": "^0.9.0",
     "npm-run-all": "^4.1.5",
-    "sapper": "^0.27.0",
-    "style-loader": "^1.1.3",
-    "svelte": "^3.0.0",
+    "sapper": "^0.27.14",
+    "style-loader": "^1.2.1",
+    "svelte": "^3.23.1",
     "svelte-feather-icons": "^3.2.2",
     "svelte-loader": "^2.9.0",
-    "webpack": "^4.7.0"
+    "webpack": "^4.43.0"
   }
 }
