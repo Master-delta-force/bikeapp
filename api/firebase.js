@@ -1,5 +1,5 @@
 import firebase from 'firebase-admin';
-import {config} from "../src/config";
+import { config } from "../src/config";
 
 // Firebase initialization with credentials
 firebase.initializeApp({
