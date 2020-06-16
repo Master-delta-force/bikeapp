@@ -53,9 +53,9 @@ Steps:
 
 <!-- Include as many relevant details about the environment with which you experienced the bug. -->
 
-| Tech                 | Version |
-| -------------------- | ------- |
-| Bikeapp              | v?.?.?  |
-| Chrome (Browser)     |         |
-| Windows (OS)         |         |
-| etc.                 |         |
+| Tech             | Version |
+| ---------------- | ------- |
+| Bikeapp          | v?.?.?  |
+| Chrome (Browser) |         |
+| Windows (OS)     |         |
+| etc.             |         |

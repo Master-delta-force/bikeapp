@@ -1,3 +1,7 @@
+<script>
+  import Button from "../components/atoms/Button.svelte";
+</script>
+
 <svelte:head>
   <title>BikeApp</title>
 </svelte:head>
