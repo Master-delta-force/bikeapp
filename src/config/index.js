@@ -16,5 +16,13 @@ export const config = {
     },
     db: {
         url: process.env.DB_URL
+    },
+    server: {
+        session: {
+            secret: process.env.SESSION_SECRET
+        }
+    },
+    jwt: {
+        secret: process.env.AUTH_JWT_SECRET
     }
 }
