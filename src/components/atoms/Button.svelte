@@ -1,7 +1,8 @@
 <script>
   export let onClick;
   export let disabled = false;
-  export let type = "primary";
+  export let variant = "primary";
+  export let type = "button"
 </script>
 
 <style>
@@ -37,9 +38,10 @@
 </style>
 
 <button
-  class:primary={type === 'primary'}
-  class:secondary={type === 'secondary'}
+  class:primary={variant === 'primary'}
+  class:secondary={variant === 'secondary'}
   on:click={onClick}
-  {disabled}>
+  {disabled}
+  type={type}>
   <slot />
 </button>
