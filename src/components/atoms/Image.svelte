@@ -1,7 +1,7 @@
 <script>
     export let src
     export let alt
-    export let caption
+    export let caption = ''
 </script>
 
 <style>
