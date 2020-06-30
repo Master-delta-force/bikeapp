@@ -46,7 +46,7 @@ function toggleIsEditing () {
 </script>
 
 <style>
-  .profile_-container {
+  .profile-container {
     max-width: 400px;
     margin: 0 auto;
   }
@@ -70,7 +70,7 @@ function toggleIsEditing () {
   <title>Profile</title>
 </svelte:head>
 
-<div class="profile_-container">
+<div class="profile-container">
   <form on:submit|preventDefault={handleSubmit}>
     <div class="profile--inputs-container">
       <label html="profile-picture">
